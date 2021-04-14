@@ -33,6 +33,7 @@
 
 * Design and document a CardanoLive ISO upgrade procedure
 * Design and propose a sustainability model for ensuring continuous upgrades
+* Design how data can be exchanged between CardanoLinux and an external system. Which data is ok to share?
 
 ## Use Cases
 
@@ -44,6 +45,7 @@
 * export Staking Rewards
 * send Ada to a contact
 * hand out an receiving address to a contact
+* Exchange data (ADA addresses/csv/pubkey) between Cardano Linux and other systems (WinPC,IOS,Android)
 
 Create a documentation for the most important of these use cases.
 
