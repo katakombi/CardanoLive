@@ -29,6 +29,11 @@
   * with separate /home partition - persistent data
   * with verified CardanoLive ISO image
 
+## Concepts
+
+* Design and document a CardanoLive ISO upgrade procedure
+* Design and propose a sustainability model for ensuring continuous upgrades
+
 ## User Stories
 
  TODO
