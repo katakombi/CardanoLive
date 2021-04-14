@@ -21,9 +21,9 @@
 * Create a stripped down linux system based on an official LTS release
 * Create a HOWTO/script for a reproducible build of the bootable CardanoLinux live system iso file based on a LTS release
 * Ask a trustworthy third party (e.g. IOHK) to run the reproducible build
-* Design a secure genuineness check during boot up
 * Create an ISO file released + sha512 checksum signed with the GPG key of the trustworthy third party
   * with system in ramdisk - all changes being lost when restarted
+* Design and implement a secure genuineness check during boot up
 * Create a HOWTO/script to produce the bootable usb stick using a bootable live linux ISO
   * with password encryption
   * with separate /home partition - persistent data
