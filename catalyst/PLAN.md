@@ -1,5 +1,22 @@
 # Project Plan
 
+## Intended Usage
+
+* User prepares the USB stick using HOWTO/script
+* User
+  * downloads ISO file release and verifies the GPG signature
+  * optionally: User runs reproducible build to produce CardanoLinux ISO file
+* User copies ISO file on the USB stick
+* User connects USB stick on PC/notebook
+* User boots from USB into CardanoLinux
+* User is asked to run an initial setup
+  * set an encryption password for /home
+  * install GPG key and shasum under /home for continuous genuineness check
+  * run an initial guided Yoroi/Daedalus installation
+  * setup wallets and downloads blockchain
+* User can stake/unstake/redelegate/receive/send Ada
+* After usage power down the PC
+
 ## Tasks
 
 * Create a live user /home template
@@ -13,18 +30,3 @@
   * with separate /home partition - persistent data
   * with verified CardanoLive ISO image
 
-## Intended Usage
-
-* User prepares the USB stick using HOWTO/script
-* User
-  * either produces reproducible build of CardanoLinux iso file
-  * or downloads ISO file release and verifies the GPG signature
-* User copies ISO file on the USB stick
-* User connects USB stick on PC/notebook
-* User boots from USB into CardanoLinux
-* User is asked to run an initial setup
-  * set an encryption password for /home
-  * run an initial guided Yoroi/Daedalus installation
-  * setup wallets and downloads blockchain
-* User can stake/unstake/redelegate/receive/send Ada
-* After usage power down the PC
