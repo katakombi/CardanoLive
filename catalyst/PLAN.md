@@ -14,6 +14,7 @@
   * setup wallets and downloads blockchain
 * User can stake/unstake/redelegate/receive/send Ada
 * After usage power down the PC
+* If multiple sticks are desired it can be duplicated by cloning the system partition on a stick with a similar size
 
 ## Tasks
 
