@@ -29,3 +29,13 @@
   * with separate /home partition - persistent data
   * with verified CardanoLive ISO image
 
+## User Stories
+
+ TODO
+
+## Ideas how to enhance security
+
+* Remove software/services that are not needed for user stories
+* Restrict internet to certain applications / websites
+* Firefox+Yoroi without cookies/http/ads/js.. as far as possible
+* Blocking most internet traffic by firewall except https/dns and what else will be needed
