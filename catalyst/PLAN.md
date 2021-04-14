@@ -39,3 +39,4 @@
 * Restrict internet to certain applications / websites
 * Firefox+Yoroi without cookies/http/ads/js.. as far as possible
 * Blocking most internet traffic by firewall except https/dns and what else will be needed
+* AppArmor?
