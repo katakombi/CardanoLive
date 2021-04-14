@@ -3,15 +3,13 @@
 ## Intended Usage
 
 * User prepares the USB stick using HOWTO/script
-* User
-  * downloads ISO file release and verifies the GPG signature
-  * optionally: User runs reproducible build to produce CardanoLinux ISO file
-* User copies ISO file on the USB stick
-* User connects USB stick on PC/notebook
-* User boots from USB into CardanoLinux
+* User copies ISO file/shasum/signature on the USB stick
+  * ISO file release downloaded from github and to be verified by 3rd-party GPG signature
+  * optionally: Create own CardanoLinux ISO file using reproducible build
+* User connects USB stick on PC/notebook and boots from USB into CardanoLinux
 * User is asked to run an initial setup
-  * set an encryption password for /home
-  * install GPG key and shasum under /home for continuous genuineness check
+  * encryption password for /home
+  * install 3rd party GPG key under /home for continuous genuineness check
   * run an initial guided Yoroi/Daedalus installation
   * setup wallets and downloads blockchain
 * User can stake/unstake/redelegate/receive/send Ada
