@@ -41,6 +41,7 @@
 * send Ada from Daedalus/Yoroi to exchange
 * stake Ada wallet
 * unstake Ada wallet
+* export Staking Rewards
 * send Ada to a contact
 * hand out an receiving address to a contact
 
