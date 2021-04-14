@@ -18,7 +18,7 @@
 ## Tasks
 
 * Create a live user /home template
-* Create a stripped down linux system based on an official LTS release
+* Create a linux system based on an official LTS release secured and stripped down to the bare minimum
 * Create a HOWTO/script for a reproducible build of the bootable CardanoLinux live system iso file based on a LTS release
 * Ask a trustworthy third party (e.g. IOHK) to run the reproducible build
 * Create an ISO file released + sha512 checksum signed with the GPG key of the trustworthy third party
