@@ -34,13 +34,21 @@
 * Design and document a CardanoLive ISO upgrade procedure
 * Design and propose a sustainability model for ensuring continuous upgrades
 
-## User Stories
+## Use Cases
 
- TODO
+* create Ada wallet in Daedalus/Yoroi
+* send Ada from exchange to Daedalus/Yoroi
+* send Ada from Daedalus/Yoroi to exchange
+* stake Ada wallet
+* unstake Ada wallet
+* send Ada to a contact
+* hand out an receiving address to a contact
+
+Create a documentation for the most important of these use cases.
 
 ## Ideas how to enhance security
 
-* Remove software/services that are not needed for user stories
+* Remove software/services that are not needed for use cases
 * Restrict internet to certain applications / websites
 * Firefox+Yoroi without cookies/http/ads/js.. as far as possible
 * Blocking most internet traffic by firewall except https/dns and what else will be needed
