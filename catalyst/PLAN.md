@@ -52,4 +52,5 @@ Create a documentation for the most important of these use cases.
 * Restrict internet to certain applications / websites
 * Firefox+Yoroi without cookies/http/ads/js.. as far as possible
 * Blocking most internet traffic by firewall except https/dns/ntp and what else will be needed
-* AppArmor?
+* AppArmor? FF
+* noexec for /tmp and /home - think of the exceptions: Daedalus/Yoroi/FF extensions? 
