@@ -51,5 +51,5 @@ Create a documentation for the most important of these use cases.
 * Remove software/services that are not needed for use cases
 * Restrict internet to certain applications / websites
 * Firefox+Yoroi without cookies/http/ads/js.. as far as possible
-* Blocking most internet traffic by firewall except https/dns and what else will be needed
+* Blocking most internet traffic by firewall except https/dns/ntp and what else will be needed
 * AppArmor?
