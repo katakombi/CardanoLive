@@ -18,6 +18,7 @@
 
 ## Tasks
 
+* Performance experiments on IO-speeds wrt running Daedalus
 * Create a live user /home template
 * Create a linux system based on an official LTS release secured and stripped down to the bare minimum
 * Create a HOWTO/script for a reproducible build of the bootable CardanoLinux live system iso file based on a LTS release
