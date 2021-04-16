@@ -27,6 +27,7 @@
 * send Ada to a contact
 * hand out an receiving address to a contact
 * Exchange data (ADA addresses/csv/pubkey) between Cardano Linux and other systems (WinPC,IOS,Android)
+* Update Daedalus/Yoroi and resync Blockhain
 
 Create a documentation for the most important of these use cases.
 
