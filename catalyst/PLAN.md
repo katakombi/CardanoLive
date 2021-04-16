@@ -5,7 +5,7 @@
 * User prepares the USB stick using HOWTO/script. This has to be as easy as possible.
 * User copies ISO file/shasum/signature on the USB stick
   * ISO file release downloaded from github and to be verified by 3rd-party GPG signature
-  * optionally: Create own CardanoLinux ISO file using reproducible build
+  * optionally: Create own CardanoLinux ISO file
 * User connects USB stick on PC/notebook and boots from USB into CardanoLinux
 * User is asked to run an initial setup
   * encryption password for /home
@@ -56,10 +56,10 @@ Create a documentation for the most important of these use cases.
 * Create a live user /home template
 * Create a linux system based on an official LTS release secured and stripped down to the bare minimum
 * Create a HOWTO/script for a reproducible build of the bootable CardanoLinux live system iso file based on a LTS release
-* Ask a trustworthy third party (e.g. IOHK) to run the reproducible build
-* Create an ISO file released + sha512 checksum signed with the GPG key of the trustworthy third party
-  * with system in ramdisk - all changes being lost when restarted
-* Design and implement a secure genuineness check during boot up
+* Ask a trustworthy third party (e.g. IOHK) to sign the image in addition - HOW can this be achieved?
+* Create an ISO file released + sha512 checksum signed with both own GPG key and the GPG key of the trustworthy third party
+  * with system in ramdisk - all temporary changes being lost after reboot
+* Design and implement a secure genuineness check during boot up? is this even possible?
 * Create a HOWTO/script to produce the bootable usb stick using a bootable live linux ISO
   * with password encryption
   * with separate /home partition - persistent data
