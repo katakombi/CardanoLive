@@ -39,7 +39,7 @@ Create a documentation for the most important of these use cases.
 * system is considered safe to use as long as the user does not hand out the USB stick
 * when others get hold on the USB stick they could replace the system with a malicious one
 
-## fully encrypted
+### fully encrypted
 * impossible for others to replace the system with a malicious one
 * makes the initial setup probably too complicated for newbies - no easy way known as of now!
 
