@@ -16,6 +16,26 @@
 * After usage power down the PC
 * If multiple sticks are desired it can be duplicated by cloning the system partition on a stick with a similar size
 
+## Use Cases
+
+* create Ada wallet in Daedalus/Yoroi
+* send Ada from exchange to Daedalus/Yoroi
+* send Ada from Daedalus/Yoroi to exchange
+* stake Ada wallet
+* unstake Ada wallet
+* export Staking Rewards
+* send Ada to a contact
+* hand out an receiving address to a contact
+* Exchange data (ADA addresses/csv/pubkey) between Cardano Linux and other systems (WinPC,IOS,Android)
+
+Create a documentation for the most important of these use cases.
+
+## Concepts
+
+* Design and document a CardanoLive ISO upgrade procedure
+* Design and propose a sustainability model for ensuring continuous upgrades
+* Design how data can be exchanged between CardanoLinux and an external system. Which data is ok to share?
+
 ## Tasks
 
 * Performance experiments on IO-speeds wrt running Daedalus
@@ -31,38 +51,15 @@
   * with separate /home partition - persistent data
   * with verified CardanoLive ISO image
 
-## Concepts
+## Ideas to investigate further
 
-* Design and document a CardanoLive ISO upgrade procedure
-* Design and propose a sustainability model for ensuring continuous upgrades
-* Design how data can be exchanged between CardanoLinux and an external system. Which data is ok to share?
-
-## Use Cases
-
-* create Ada wallet in Daedalus/Yoroi
-* send Ada from exchange to Daedalus/Yoroi
-* send Ada from Daedalus/Yoroi to exchange
-* stake Ada wallet
-* unstake Ada wallet
-* export Staking Rewards
-* send Ada to a contact
-* hand out an receiving address to a contact
-* Exchange data (ADA addresses/csv/pubkey) between Cardano Linux and other systems (WinPC,IOS,Android)
-
-Create a documentation for the most important of these use cases.
-
-## Ideas how to enhance security
-
-* Remove software/services that are not needed for use cases
-* Restrict internet to certain applications / websites
-* Firefox+Yoroi without cookies/http/ads/js.. as far as possible
-* Blocking most internet traffic by firewall except https/dns/ntp and what else will be needed
-* AppArmor? FF
-* noexec for /tmp and /home - think of the exceptions: Daedalus/Yoroi/FF extensions?
-
-## To investigate further
-https://www.ventoy.net/en/doc_start.html
-
+ * For creation of USB stick: https://www.ventoy.net/en/doc_start.html
+ * Remove software/services that are not needed for use cases
+ * Restrict internet to certain applications / websites
+ * Firefox+Yoroi without cookies/http/ads/js.. as far as possible
+ * Blocking most internet traffic by firewall except https/dns/ntp and what else will be needed
+ * AppArmor? FF
+ * noexec for /tmp and /home - think of the exceptions: Daedalus/Yoroi/FF extensions? 
 
 # Catalyst Proposal Calculation - TODO 
  * explain expenses of requested 2500USD
