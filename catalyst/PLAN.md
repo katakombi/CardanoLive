@@ -4,7 +4,7 @@
 
 * User prepares the USB stick using HOWTO/script. This has to be as easy as possible.
 * User copies ISO file/shasum/signature on the USB stick
-  * ISO file release downloaded from github and to be verified by 3rd-party GPG signature
+  * ISO file release downloaded from github/elsewhere and to be verified by shasum&GPG signature
   * optionally: Create own CardanoLinux ISO file
 * User connects USB stick on PC/notebook and boots from USB into CardanoLinux
 * User is asked to run an initial setup
