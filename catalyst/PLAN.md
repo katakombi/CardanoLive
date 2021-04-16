@@ -76,5 +76,5 @@ Create a documentation for the most important of these use cases.
  * noexec for /tmp and /home - think of the exceptions: Daedalus/Yoroi/FF extensions? 
 
 # Catalyst Proposal Calculation - TODO 
- * explain expenses of requested 2500USD
- * what exactly will be funded
+ * what exactly will the requested 2500USD be spend for?
+ * illustrate expenses in detail
