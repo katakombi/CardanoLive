@@ -9,7 +9,6 @@
 * User connects USB stick on PC/notebook and boots from USB into CardanoLinux
 * User is asked to run an initial setup
   * encryption password for /home
-  * install 3rd party GPG key under /home for continuous genuineness check
   * run an initial guided Yoroi/Daedalus installation
   * setup wallets and downloads blockchain
 * User can stake/unstake/redelegate/receive/send Ada
