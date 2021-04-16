@@ -58,4 +58,12 @@ Create a documentation for the most important of these use cases.
 * Firefox+Yoroi without cookies/http/ads/js.. as far as possible
 * Blocking most internet traffic by firewall except https/dns/ntp and what else will be needed
 * AppArmor? FF
-* noexec for /tmp and /home - think of the exceptions: Daedalus/Yoroi/FF extensions? 
+* noexec for /tmp and /home - think of the exceptions: Daedalus/Yoroi/FF extensions?
+
+## To investigate further
+https://www.ventoy.net/en/doc_start.html
+
+
+# Catalyst Proposal Calculation - TODO 
+ * explain expenses of requested 2500USD
+ * what exactly will be funded
