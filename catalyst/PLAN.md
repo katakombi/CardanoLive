@@ -34,10 +34,11 @@ Create a documentation for the most important of these use cases.
 
 ## Generally speaking
 * system can be securely updated from within
+* your wallets are secured by your password
 
 ### /home encrypted
-* system is considered safe to use as long as the user does not hand out the USB stick
-* when others get hold on the USB stick they could replace the system with a malicious one
+* you are safe to use the system as long as you dont hand out the USB stick. But as soon as someone had access to it you have to stop using it! 
+* Reason: when others get hold on the USB stick they could replace the system with a malicious one. After entering your password you might be using an compromised system which could eventually leak your wallets. 
 
 ### fully encrypted
 * impossible for others to replace the system with a malicious one
