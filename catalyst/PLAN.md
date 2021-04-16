@@ -45,12 +45,14 @@ Create a documentation for the most important of these use cases.
 
 ## Concepts
 
+* Design a procedure to derive CardanoLive from a trusted LTS image with maximum transparency in mind so that a 3rd party can provide or sign an image
 * Design and document a CardanoLive ISO upgrade procedure
 * Design and propose a sustainability model for ensuring continuous upgrades
 * Design how data can be exchanged between CardanoLinux and an external system. Which data is ok to share?
 
 ## Tasks
 
+* Establish contacts in discord/ ask for feedback
 * Performance experiments on IO-speeds wrt running Daedalus
 * Create a live user /home template
 * Create a linux system based on an official LTS release secured and stripped down to the bare minimum
