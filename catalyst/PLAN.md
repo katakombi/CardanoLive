@@ -2,7 +2,7 @@
 
 ## Intended Usage
 
-* User prepares the USB stick using HOWTO/script
+* User prepares the USB stick using HOWTO/script. This has to be as easy as possible.
 * User copies ISO file/shasum/signature on the USB stick
   * ISO file release downloaded from github and to be verified by 3rd-party GPG signature
   * optionally: Create own CardanoLinux ISO file using reproducible build
