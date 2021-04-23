@@ -2,18 +2,15 @@
 
 ## Intended Usage
 
-* User prepares the USB stick using HOWTO/script. This has to be as easy as possible.
-* User copies ISO file/shasum/signature on the USB stick
-  * ISO file release downloaded from github/elsewhere and to be verified by shasum&GPG signature
-  * optionally: Create own CardanoLinux ISO file
+* User prepares the Cardano Linux ISO file.
+* User prepares the USB stick using HOWTO/script.
 * User connects USB stick on PC/notebook and boots from USB into CardanoLinux
 * User is asked to run an initial setup
   * encryption password for /home
   * run an initial guided Yoroi/Daedalus installation
   * setup wallets and downloads blockchain
-* User can stake/unstake/redelegate/receive/send Ada
+* User can toy around with Ada: stake/unstake/redelegate/receive/send
 * After usage power down the PC
-* If multiple sticks are desired it can be duplicated by cloning the system partition on a stick with a similar size
 
 ## Use Cases
 
@@ -32,15 +29,14 @@ Create a documentation for the most important of these use cases.
 
 ## Security & Encryption
 
-## Generally speaking
-* system can be securely updated from within
-* your wallets are secured by your password
+### Generally speaking
+* your wallets are secured by your encryption password
 
-### /home encrypted
+### Possibility A: /home encrypted
 * you are safe to use the system as long as you dont hand out the USB stick. But as soon as someone had access to it you have to stop using it! 
 * Reason: when others get hold on the USB stick they could replace the system with a malicious one. After entering your password you might be using an compromised system which could eventually leak your wallets. 
 
-### fully encrypted
+### Posdsibility B: fully encrypted
 * impossible for others to replace the system with a malicious one
 * makes the initial setup probably too complicated for newbies - no easy way known as of now!
 
@@ -51,8 +47,9 @@ Create a documentation for the most important of these use cases.
 * Design and propose a sustainability model for ensuring continuous upgrades
 * Design how data can be exchanged between CardanoLinux and an external system. Which data is ok to share?
 
-## Tasks
+## Ideas
 
+* Create a demo video of the prototype
 * Establish contacts in discord/ ask for feedback
 * Performance experiments on IO-speeds wrt running Daedalus
 * Create a live user /home template
@@ -67,7 +64,7 @@ Create a documentation for the most important of these use cases.
   * with separate /home partition - persistent data
   * with verified CardanoLive ISO image
 
-## Ideas to investigate further
+## For further investigation
 
  * For creation of USB stick: https://www.ventoy.net/en/doc_start.html
  * Remove software/services that are not needed for use cases
